@@ -6,10 +6,10 @@ function onDeviceReady() {
 
 	alert("onDeviceReady");
 
-	//var devicePlatform = device.manufacturer;
+	var devicePlatform = device.manufacturer;
 	
 	
-	//document.getElementById("sometext").innerHTML = "some random text";
+	document.getElementById("sometext").innerHTML = "some random text";
 	
-	//console.log(navigator.vibrate(1000);
+	console.log(navigator.vibrate(1000);
 };
