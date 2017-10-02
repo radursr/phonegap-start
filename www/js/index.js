@@ -6,7 +6,7 @@ onDeviceReady: function() {
 
 	var devicePlatform = device.platform;
 	
-	document.getElementById("sometext").innerHTML(devicePlatform);
+	document.getElementById("sometext").innerHTML = devicePlatform;
 	
 	
 };
