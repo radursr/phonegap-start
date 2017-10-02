@@ -23,6 +23,9 @@
     -->
     <preference name="permissions"                value="none"/>
 
+	<config-file platform="android" parent="/manifest/application" mode="merge">
+    <activity android:launchMode="singleTop" />
+	</config-file>
    
     <access origin="*"/>
    <plugin name="cordova-plugin-whitelist" version="1" />
