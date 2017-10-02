@@ -1,13 +1,15 @@
-function init(){
-	document.addEventListener('deviceready', this.onDeviceReady, false);
-}
-onDeviceReady: function() {
 
-	
+alert("JS is running");
+document.addEventListener('deviceready', onDeviceReady, false);
 
-	var devicePlatform = device.manufacturer;
+function onDeviceReady() {
+
+	alert("onDeviceReady");
+
+	//var devicePlatform = device.manufacturer;
 	
-	document.getElementById("sometext").innerHTML = devicePlatform;
 	
-	console.log(navigator.vibrate(1000);
+	//document.getElementById("sometext").innerHTML = "some random text";
+	
+	//console.log(navigator.vibrate(1000);
 };
