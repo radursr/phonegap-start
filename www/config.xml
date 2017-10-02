@@ -30,5 +30,6 @@
     <access origin="*"/>
    <plugin name="cordova-plugin-whitelist" version="1" />
    <plugin name="cordova-plugin-device" spec="~1.1.6" />
+   <plugin name="cordova-plugin-vibration" spec="~2.1.5" />
 
 </widget>
